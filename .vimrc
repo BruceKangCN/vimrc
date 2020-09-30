@@ -11,6 +11,7 @@ Plug 'honza/vim-snippets'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'jiangmiao/auto-pairs'
 Plug 'vim/killersheep'
+Plug 'Chiel92/vim-autoformat'
 
 " All of your Plugins must be added before the following line
 call plug#end()
@@ -64,3 +65,5 @@ if !exists('g:airline_symbols')
 endif
 let g:airline_symbols.space = "\ua0"
 
+noremap <F9> :Autoformat<CR>
+au BufWrite * :Autoformat
