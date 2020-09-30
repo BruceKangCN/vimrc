@@ -29,7 +29,7 @@ nodejs
 * `Tab`键补全
 * 静态检测
 * `C++`高亮增强
-* git分支、新增/删除行检测
+* `git`分支，新增/删除行检测
 * 自定义状态栏
-* 暗色主题
+* `VS Code - Dark(Plus)`主题
 ![image.png](https://i.loli.net/2020/10/01/ZoxjTFkGKuWg8BQ.png)
