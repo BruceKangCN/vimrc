@@ -20,6 +20,8 @@ vim-plug
 git
 ccls
 nodejs
+clang-format
+python3
 ```
 
 #### 特性
@@ -27,6 +29,7 @@ nodejs
 * 代码补全
 * 块补全
 * `Tab`键补全
+* `F9`代码格式化，写入时格式化
 * 静态检测
 * `C++`高亮增强
 * `git`分支，新增/删除行检测
