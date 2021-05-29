@@ -32,6 +32,7 @@ inoremap <silent><expr> <TAB>
     \ <SID>check_back_space()? "\<TAB>" :
     \ coc#refresh()
 nnoremap m c
+nnoremap M <Nop>
 
 function! s:check_back_space() abort
     let col = col('.') - 1
