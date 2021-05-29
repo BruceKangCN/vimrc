@@ -43,7 +43,6 @@ let g:coc_snippet_next='<tab>'
 filetype plugin indent on
 
 set t_Co=256
-nmap a i
 set t_ut=
 colorscheme codedark
 set laststatus=2
