@@ -34,8 +34,11 @@ inoremap <silent><expr> <TAB>
 
 nnoremap m c
 nnoremap M <Nop>
+nnoremap ' G
 nnoremap <TAB> >>
 nnoremap <S-TAB> <<
+vnoremap <TAB> >
+vnoremap <S-TAB> <
 
 function! s:check_back_space() abort
     let col = col('.') - 1
