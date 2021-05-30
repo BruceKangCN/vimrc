@@ -37,6 +37,7 @@ nnoremap M <Nop>
 nnoremap ' G
 nnoremap <TAB> >>
 nnoremap <S-TAB> <<
+vnoremap ' G
 vnoremap <TAB> >
 vnoremap <S-TAB> <
 
