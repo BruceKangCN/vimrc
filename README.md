@@ -8,10 +8,11 @@
 ```
 sudo snap install vim
 ```
-2. 下载发行版中的`vim.tar.gz`并解压到家目录
+2. 下载`Release`中的`vim.tar.gz`并解压到`$HOME`
 ```
-tar -zxvf vim.tar.gz -C ~
+tar -zxvf vim.tar.gz -C $HOME
 ```
+3. 如果你使用`Programmer Dvorak`布局，将`.vimrc`中的第3行取消注释
 
 #### 依赖
 ```
@@ -35,4 +36,6 @@ python3
 * `git`分支，新增/删除行检测
 * 自定义状态栏
 * `VS Code - Dark(Plus)`主题
-![image.png](https://i.loli.net/2020/10/01/ZoxjTFkGKuWg8BQ.png)
+* `Programmer Dvorak`布局键位优化
+
+![preview](./preview.png)
