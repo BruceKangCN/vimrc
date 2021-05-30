@@ -12,7 +12,7 @@ sudo snap install vim
 ```
 tar -zxvf vim.tar.gz -C $HOME
 ```
-3. 如果你使用`Programmer Dvorak`布局，将`.vimrc`中的第3行取消注释
+3. 如果你使用`Programmer Dvorak`布局，将`.vimrc`中的第5行取消注释
 
 #### 依赖
 ```
