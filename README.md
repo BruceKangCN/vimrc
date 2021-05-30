@@ -30,10 +30,9 @@ python3
 * 代码补全
 * 块补全
 * `Tab`键补全
-* `F9`代码格式化，写入时格式化
 * 静态检测
 * `C++`高亮增强
-* `git`分支，新增/删除行检测
+* `git`状态
 * 自定义状态栏
 * `VS Code - Dark(Plus)`主题
 * `Programmer Dvorak`布局键位优化
