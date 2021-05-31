@@ -46,6 +46,8 @@ filetype plugin indent on
 
 set t_Co=256
 set t_ut=
+set ff=unix
+set ffs=unix,dos,mac
 colorscheme codedark
 set laststatus=2
 set nowrap
